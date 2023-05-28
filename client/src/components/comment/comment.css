@@ -1,0 +1,51 @@
+.comment {
+  background-color: white;
+  border-bottom: 1px #9bacd6 solid;
+  border-top: 1px #9bacd6 solid;
+}
+
+.commentUsername {
+  color: #283352;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+.commentText {
+  color: #283352;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.btn {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.likeButton {
+  border: none;
+  background-color: white;
+}
+
+i[class*="likeicon"] {
+  font-size: 25px;
+  color: #506497;
+}
+
+.dislike {
+  margin-left: 10px;
+  font-size: 18px;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+
+.like {
+  font-size: 18px;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}

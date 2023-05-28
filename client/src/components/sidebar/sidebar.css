@@ -1,0 +1,42 @@
+.sidebar {
+  flex: 3;
+  height: fit-content;
+  padding-bottom: 30px;
+  display: flex;
+  background-color: #f6fcff;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.sidebarItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebarTitle {
+  margin: 10px;
+  margin-top:20px;
+  padding: 5px;
+  width: 90%;
+  border-bottom:  1px #9bacd6 solid;
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #212E54;
+  font-weight: 600;
+}
+
+.sidebarItem > img {
+  margin-top: 15px;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.sidebarItem > p {
+  padding: 20px;
+  padding-top: 0px;
+}

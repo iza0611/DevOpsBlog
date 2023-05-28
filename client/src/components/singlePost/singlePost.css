@@ -1,0 +1,80 @@
+.singlePost {
+  flex: 9;
+}
+
+.wrapper {
+  padding: 20px;
+}
+
+.singleImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.singleTitle {
+  text-align: center;
+  margin: 10px;
+  margin-top: 20px;
+  font-size: 32px;
+  font-family: "Lora", sans-serif;
+}
+
+.action {
+  float: right;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.singleIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singleIcon{
+    font-size: 35px;
+}
+
+.singleIcon:first-child {
+  color: rgb(36, 58, 117);
+}
+.singleIcon:last-child {
+  color: rgb(223, 33, 0);
+}
+
+.singleInfo {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #283352;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+
+.singleAuthor {
+  margin-left: 5px;
+}
+
+.singleDesc {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 5px;
+  margin-left: 15px;
+  margin-left: 15px;
+  text-align: justify;
+}
+
+.singleTime::first-letter {
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.singlePostButton{
+  background-color: rgb(209, 214, 221);
+  color: #30153f;
+  border:none;
+  padding:10px;
+}
+
